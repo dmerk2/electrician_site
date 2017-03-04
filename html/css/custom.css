@@ -3533,8 +3533,10 @@ Skin Name: Nivo Slider Default Theme
 }
 .bulb-block .bulb .bulb-img img,
 .bulb-block .bulb .bulb-mask img {
-  width: 100%;
   height: 413px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   image-rendering: optimizeQuality;
@@ -3550,7 +3552,7 @@ Skin Name: Nivo Slider Default Theme
 .bulb-block .bulb .bulb-mask {
   position: absolute;
   width: 100%;
-  height: 100%;
+  min-height: 100%;
   z-index: 2;
   top: 0;
 }
