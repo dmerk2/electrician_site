@@ -2559,7 +2559,7 @@ body.slide-active {
   left: 0px;
   bottom: 0px;
   background: #000;
-  color: #fff;
+  color: #f47629;
   width: 100%;
   z-index: 10000;
   padding: 5px 10px;
@@ -2619,6 +2619,7 @@ Skin Name: Nivo Slider Default Theme
   top: 0px;
   left: 0px;
   display: none;
+  height: 680px;
 }
 .theme-default .nivoSlider a {
   border: 0;
