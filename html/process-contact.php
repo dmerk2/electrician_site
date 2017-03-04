@@ -1,12 +1,12 @@
 <?php
 
-    $to = "";  // Your email here
+    $to = "dan.merkin@gmail.com";  // Your email here
     $from = $_REQUEST['email'];
     $name = $_REQUEST['name'];
 	$phone = $_REQUEST['phone'];
 	$message = $_REQUEST['message'];
     $headers = "From: $from";
-	$subject = "Contact Form PoolService";
+	$subject = "Contact Form Electrical Service";
    
     $fields = array();
     $fields{"name"} = "First name";
