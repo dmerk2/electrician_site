@@ -484,7 +484,7 @@ $window.on('load', function () {
 			// How zoomed in you want the map to start at (always required)
 			zoom: mapZoom,
 			scrollwheel: false, // The latitude and longitude to center the map (always required)
-			center: new google.maps.LatLng(55.8610112, -4.2547319), // Glasgow
+			center: new google.maps.LatLng(40.836488,-74.494491), // Glasgow
 			// How you would like to style the map. 
 			// This is where you would paste any style found on Snazzy Maps.
 			styles: [{
@@ -612,7 +612,7 @@ $window.on('load', function () {
 		var image = 'images/map-marker.png';
 		// Let's also add a marker while we're at it
 		var marker = new google.maps.Marker({
-			position: new google.maps.LatLng(55.8610112, -4.2547319),
+			position: new google.maps.LatLng(40.836488,-74.494491),
 			map: map,
 			icon: image
 		});		
